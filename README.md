@@ -133,8 +133,7 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
-    //https://dagger.dev/hilt/gradle-setup.html
-    //Hilt
+    //[Hilt](https://dagger.dev/hilt/gradle-setup.html)
     implementation 'com.google.dagger:hilt-android:2.45'
     kapt 'com.google.dagger:hilt-compiler:2.45'
     // For Instrumentation Tests
@@ -149,7 +148,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 ```
-> Create Application class with @@HiltAndroidApp annotation
+> Create Application class with @HiltAndroidApp annotation
 ```
 package com.daily
 
